@@ -1,3 +1,1 @@
-# SomeBasicHTML
-
-Just playing around, learning some HTML.
+Learning the roundabouts of creating a website.
