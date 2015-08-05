@@ -14,4 +14,30 @@ If you would like to get involved with or learn more about Girls Who Code, click
 
 For any questions/concerns/comments, feel free to contact me at my email: <a href = "mailto:rs637@njit.edu?">rs637@njit.edu</a>. You can also contact me at my GWC email: <a href = "mailto:rahulsyal@girlswhocode.com?">rahulsyal@girlswhocode.com</a>.</p>
 </body>
+<script>
+  noStroke();
+
+
+var Size = random(1,50); //creates variables
+var Size2 = random(1,35);
+var Color1 = random(0,255);
+var Color2 = random(0,255);
+var Color3 = random(0,255);
+
+var draw = function() {
+       
+    Size = random(1,50);
+    Size2 = random(1,35);
+    var Splat1 = random(-31,30);
+    var Splat2 = random(-31,30);
+    Color1 = random(0,25);
+    Color2 = random(0,255);
+    Color3 = random(0,255);
+
+    fill (Color1, Color2, Color3);
+    ellipse(mouseX, mouseY, Size, Size);
+    ellipse(mouseX+Splat1, mouseY+Splat2, Size2, Size2);
+
+};
+</script>
 </html>
